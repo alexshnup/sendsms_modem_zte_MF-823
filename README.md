@@ -13,7 +13,8 @@ import urllib
 import pycurl
 import sys
 
-host = '192.168.8.1'
+#host = '192.168.8.1'
+host = '192.168.0.1'
 port = '80'
 
 reload(sys)
@@ -51,7 +52,8 @@ import pycurl
 import sys
 import urllib.parse
 
-host = '192.168.8.1'
+#host = '192.168.8.1'
+host = '192.168.0.1'
 port = '80'
 
 text=sys.argv[1]
