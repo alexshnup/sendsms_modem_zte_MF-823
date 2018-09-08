@@ -22,7 +22,9 @@ sys.setdefaultencoding('utf8')
 text=sys.argv[1]
 text=text.encode("utf-16-be")
 msg="".join("{:02x}".format(ord(c)) for c in text)
-number = '+7***'
+
+#number = '+7***'
+number=sys.argv[2]
 
 time=strftime("%y;%m;%d;%H;%M;%S;+5", gmtime())
 
@@ -59,7 +61,9 @@ port = '80'
 text=sys.argv[1]
 text=text.encode("utf-16-be")
 msg="".join("{:02x}".format(c) for c in text)
-number="+79***"
+
+#number="+79***"
+number=sys.argv[2]
 
 time=strftime("%y;%m;%d;%H;%M;%S;+5", gmtime())
 
