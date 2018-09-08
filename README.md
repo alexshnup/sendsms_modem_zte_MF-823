@@ -1,7 +1,7 @@
 # sendsms_modem_zte_MF-823
 
 # Sending SMS via modem ZTE MF823
-## For python 2.
+###### For python 2.
 
 ```
 #!/usr/bin/python
@@ -39,7 +39,7 @@ print '\n'
 ```
 
 
-## For python 3.
+###### For python 3.
 
 ```
 #!/usr/bin/python
@@ -74,7 +74,7 @@ c.setopt(pycurl.POSTFIELDS, post)
 c.perform()
 print("\n")
 ```
-## Use:
+###### Use:
 ```
 $ python sms.py "любой текст"
 ```
