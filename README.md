@@ -2,7 +2,7 @@
 
 Отправка СМС с модема ZTE MF823
 Для python 2.
-
+''''''
 #!/usr/bin/python
 
 # coding: utf8
@@ -34,8 +34,12 @@ c.setopt(pycurl.POST, 1)
 c.setopt(pycurl.POSTFIELDS, post)
 c.perform()
 print '\n'
+'''
+
+
 Для python 3.
 
+'''
 #!/usr/bin/python
 
 # coding: utf8
@@ -66,4 +70,8 @@ c.setopt(pycurl.POST, 1)
 c.setopt(pycurl.POSTFIELDS, post)
 c.perform()
 print("\n")
+'''
+
+'''
 $ python sms.py "любой текст"
+'''
